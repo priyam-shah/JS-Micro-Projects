@@ -1,0 +1,41 @@
+html,
+body {
+  background-color: #ffffff;
+  font-family: "Lota", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  color: rgb(255, 106, 106);
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+h2:after {
+  display: block;
+  height: 3px;
+  background-color: #22e68b;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.btn:hover,
+input[type="submit"] {
+  border: 1px solid #ff7700;
+  background-color: #ca90be;
+  height: 50px;
+}
